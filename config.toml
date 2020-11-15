@@ -15,8 +15,9 @@ build_search_index = false
 theme = "juice"
 
 [extra]
-juice_logo_name = "Juice"
-juice_logo_path = "juice.svg"
+juice_logo_name = "OurHQ"
+juice_logo_path = "ourhq.svg"
 juice_extra_menu = [
-    { title = "Github", link = "https://github.com/huhu/juice"}
+    { title = "GitLab", link = "https://gitlab.com/lukehsiao/ourhq-website"},
+    { title = "Discord", link = "https://gitlab.com/lukehsiao/ourhq-website"}
 ]
