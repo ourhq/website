@@ -115,7 +115,7 @@ main {
 .toc-sticky {
   border-radius: 3px;
   border-top: 5px solid var(--primary-color);
-  background-color: white;
+  background-color: var(--toc-highlight-text-color);
   position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -179,4 +179,23 @@ footer {
     display: none;
   }
 
+}
+
+.btn-download {
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+  background-color: #859900;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 10px 0 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: 30px;
+  width: 230px;
+}
+
+.discord {
+  background-image: url("discord.svg");
 }

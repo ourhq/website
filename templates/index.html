@@ -24,7 +24,6 @@
 
     <div class="hero">
         {% block hero %}
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
         <section class="text-center">
             <h1 class="heading-text" style="font-size: 50px">
                 An inclusive online community for youth
@@ -32,11 +31,12 @@
             <h3 class="title-text">
                 <b>OurHQ</b> is an an inclusive online community and hackerspace for youth and leaders to collaborate, create, design, and play.
             </h3>
-            <div>
-                <a class="github-button" href="https://github.com/huhu/juice" data-size="large" data-show-count="true"
-                   aria-label="Star huhu/juice on GitHub">Star</a>
-                <a class="github-button" href="https://github.com/huhu/juice/fork" data-size="large"
-                   data-show-count="true" aria-label="Fork huhu/juice on GitHub">Fork</a>
+            <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: center">
+                <a class="btn-download discord"
+                   href="https://chrome.google.com/webstore/detail/rust-search-extension/ennpfpdlaclocpomkiablnmbppdnlhoh"
+                   target="_blank">
+                    Join our Discord
+                </a>
             </div>
         </section>
         <img class="hero-image" style="width: 50%" src="{{ get_url(path="ourhq.svg") }}">
