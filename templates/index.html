@@ -38,7 +38,9 @@
             </a>
         </div>
     </section>
-    <img class="hero-image" style="width: 50%" src="{{ get_url(path="ourhq.svg") }}" alt="ourhq-logo">
+    <div class="hero-image">
+        <iframe src="https://discord.com/widget?id=270417652789280779&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </div>
 </div>
 
 <div class="explore-more text"
@@ -53,7 +55,7 @@
             document.querySelectorAll('.btn-download').forEach((element) => {
                 element.classList.add('hide');
             });
-            let target = ['firefox', 'edg'].find(item => navigator.includes(item)) || 'chrome';
+            let target = 'discord';
             document.querySelector(`.${target}`).classList.remove('hide');
         } else {
             document.querySelectorAll('.btn-download').forEach((element) => {
