@@ -20,22 +20,24 @@
 {% endblock head %}
 
 {% block hero %}
-<section style="padding:10px">
-    <h1 class="text-center heading-text">
-        An inclusive online community for youth.
-    </h1>
-    <h3 class="text" style="text-align: center;">
-        <b>OurHQ</b> is an inclusive online community and hackerspace for youth and leaders to collaborate, create, design, and play. 
-    </h3>
-    <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: center">
-        <a class="btn-download discord"
-           href="https://chrome.google.com/webstore/detail/rust-search-extension/ennpfpdlaclocpomkiablnmbppdnlhoh"
-           target="_blank">
-            Join our Discord
-        </a>
-    </div>
-</section>
-<img class="hero-image" style="width: 50%" src="{{ get_url(path="ourhq.svg") }}" alt="ourhq-logo">
+<div class="hero-content">
+    <section style="padding:10px">
+        <h1 class="text-center heading-text">
+            An inclusive online community for youth.
+        </h1>
+        <h3 class="text" style="text-align: center;">
+            <b>OurHQ</b> is an inclusive online community and hackerspace for youth and leaders to collaborate, create, design, and play. 
+        </h3>
+        <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: center">
+            <a class="btn-download discord"
+               href="https://chrome.google.com/webstore/detail/rust-search-extension/ennpfpdlaclocpomkiablnmbppdnlhoh"
+               target="_blank">
+                Join our Discord
+            </a>
+        </div>
+    </section>
+    <img class="hero-image" style="width: 50%" src="{{ get_url(path="ourhq.svg") }}" alt="ourhq-logo">
+</div>
 
 <div class="explore-more text"
      onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">

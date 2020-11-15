@@ -3,6 +3,29 @@
   height: auto;
 }
 
+main {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  overflow-x: hidden;
+  padding: 0 40px;
+  max-width: var(--max-width);
+  margin: auto;
+
+  .explore-more {
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    cursor: pointer;
+  }
+}
+
 .hero-image {
   max-width: 50%;
   max-height: 400px;
