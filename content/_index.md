@@ -8,9 +8,5 @@ sort_by = "weight"
 **OurHQ** is a youth-focused hackerspace for the LDS youth community in the
 Menlo Park Stake.
 
-- Build for product sites
-- Simple and intuitive structure
-- Clean and elegant design
-- Responsive and mobile device compatible
-- Customize and extend friendly
-
+- point 1
+- something else

@@ -118,3 +118,12 @@ footer {
     color: var(--primary-text-color);
   }
 }
+
+.content code {
+  background-color: var(--secondary-color);
+  color: #4a4a4a;
+  font-size: .875em;
+  font-weight: normal;
+  padding: 0.25em 0.5em 0.25em;
+  font-family: monospace;
+}
