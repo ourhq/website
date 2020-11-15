@@ -1,147 +1,78 @@
-{% import "_macros.html" as macros %}
-<!DOCTYPE html>
-<html lang="en">
+{% extends "juice/templates/index.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {% include "_variables.html" %}
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/normalize.css">
-    <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
-    {% block head %}
-    {% endblock head %}
-</head>
+{% block head %}
+<meta name="keywords"
+      content="ourhq, hackerspace, youth, lds, mormon">
+<meta itemprop="name"
+      content="{{ config.extra.meta_title }}">
+<meta itemprop="description"
+      content="{{ config.extra.meta_description }}">
 
-<body>
-    {% block header %}
+<meta property="og:url" content="https://ourhq.hsiao.dev">
+<meta property="og:type" content="website">
+<meta property="og:title"
+      content="{{ config.extra.meta_title }}">
+<meta property="og:description"
+      content="{{ config.extra.meta_description }}">
 
-    <header class="pos-absolute" style="background-color: transparent">
-        {{ macros::render_header() }}
-    </header>
+<link rel="stylesheet" href="{{ get_url(path="index.css") }}">
+{% endblock head %}
 
-    <div class="hero">
-        {% block hero %}
-        <section class="text-center">
-            <h1 class="heading-text" style="font-size: 50px">
-                An inclusive online community for youth
-            </h1>
-            <h3 class="title-text">
-                <b>OurHQ</b> is an an inclusive online community and hackerspace for youth and leaders to collaborate, create, design, and play.
-            </h3>
-            <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: center">
-                <a class="btn-download discord"
-                   href="https://chrome.google.com/webstore/detail/rust-search-extension/ennpfpdlaclocpomkiablnmbppdnlhoh"
-                   target="_blank">
-                    Join our Discord
-                </a>
-            </div>
-        </section>
-        <img class="hero-image" style="width: 50%" src="{{ get_url(path="ourhq.svg") }}">
-
-        <div class="explore-more text"
-            onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
-            Explore More ⇩
-        </div>
-        <style>
-            .hero section {
-                padding: 0 5rem;
-            }
-            @media screen and (max-width: 768px) {
-                .hero section {
-                    padding: 0 2rem;
-                }
-
-                .hero-image {
-                    display: none
-                }
-            }
-        </style>
-        {% endblock hero %}
+{% block hero %}
+<section style="padding:10px">
+    <h1 class="text-center heading-text">
+        An inclusive online community for youth.
+    </h1>
+    <h3 class="text" style="text-align: center;">
+        <b>OurHQ</b> is an inclusive online community and hackerspace for youth and leaders to collaborate, create, design, and play. 
+    </h3>
+    <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: center">
+        <a class="btn-download discord"
+           href="https://chrome.google.com/webstore/detail/rust-search-extension/ennpfpdlaclocpomkiablnmbppdnlhoh"
+           target="_blank">
+            Join our Discord
+        </a>
     </div>
+</section>
+<img class="demonstration-gif" style="width: 50%" src="{{ get_url(path="ourhq.svg") }}">
 
-    {% endblock header %}
+<div class="explore-more text"
+     onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+    Explore More ⇩
+</div>
 
-    <main>
-        {% block toc %}
-        {% if section.toc %}
-        {% set toc = section.toc %}
-        {% elif page.toc %}
-        {% set toc = page.toc %}
-        {% endif %}
-        {% if toc %}
-        <div class="toc">
-            <div class="toc-sticky">
-                {% for h in toc %}
-                <div class="toc-item">
-                    <a class="subtext" href="{{h.permalink | safe}}">{{ h.title }}</a>
-                </div>
-                {% if h.children %}
-                {% for h2 in h.children %}
-                <div class="toc-item-child">
-                    <a class="subtext" href="{{h2.permalink | safe}}"><small>- {{ h2.title }}</small></a>
-                </div>
-                {% endfor %}
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-        {% endblock toc %}
-
-        <div class="content text">
-            {% block content %}
-            <div id="features" class="heading-text">Overview</div>
-            {{ section.content | safe }}
-            {% endblock content %}
-        </div>
-
-    </main>
-
-    {% block footer %}
-    <footer>
-        <small class="subtext">
-            Made collaboratively by the members of OurHQ.
-        </small>
-    </footer>
-    {% endblock footer %}
-</body>
 <script>
-    function highlightNav(heading) {
-        let pathname = location.pathname;
-        document.querySelectorAll(".toc a").forEach((item) => {
-            item.classList.remove("active");
-        });
-        document.querySelector(".toc a[href='" + pathname + "#" + heading + "']").classList.add("active");
-    }
-
-    let currentHeading = "";
-    window.onscroll = function () {
-        let h = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
-        let elementArr = [];
-
-        h.forEach(item => {
-            if (item.id !== "") {
-                elementArr[item.id] = item.getBoundingClientRect().top;
-            }
-        });
-        elementArr.sort();
-        for (let key in elementArr) {
-            if (!elementArr.hasOwnProperty(key)) {
-                continue;
-            }
-            if (elementArr[key] > 0 && elementArr[key] < 300) {
-                if (currentHeading !== key) {
-                    highlightNav(key);
-                    currentHeading = key;
-                }
-                break;
-            }
+    function mobilizeDownloadButton() {
+        let navigator = window.navigator.userAgent.toLocaleLowerCase();
+        if (window.innerWidth < 768) {
+            document.querySelectorAll('.btn-download').forEach((element) => {
+                element.classList.add('hide');
+            });
+            let target = ['firefox', 'edg'].find(item => navigator.includes(item)) || 'chrome';
+            document.querySelector(`.${target}`).classList.remove('hide');
+        } else {
+            document.querySelectorAll('.btn-download').forEach((element) => {
+                element.classList.remove('hide');
+            });
         }
     }
+
+    mobilizeDownloadButton();
+    window.onresize = function () {
+        mobilizeDownloadButton();
+    };
 </script>
+{% endblock hero %}
 
-</html>
-
+{% block footer %}
+<footer>
+    <small class="subtext">
+        Make collaboratively by the members of OurHQ.
+    </small>
+</footer>
+<script>
+    window.onmessage = e => {
+        e.data.hasOwnProperty("frameHeight") && (document.getElementById("footer").style.height = `${e.data.frameHeight}px`)
+    }
+</script>
+{% endblock footer %}

@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://ourhq.hsiao.dev"
 
+title = "OurHQ: An inclusive hackerspace for youth"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -21,3 +23,5 @@ juice_extra_menu = [
     { title = "GitLab", link = "https://gitlab.com/lukehsiao/ourhq-website"},
     { title = "Discord", link = "https://gitlab.com/lukehsiao/ourhq-website"}
 ]
+meta_title = "OurHQ: An inclusive hackerspace for youth"
+meta_description = "Come join us to design, build, create, learn, and play."
