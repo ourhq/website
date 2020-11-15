@@ -3,9 +3,9 @@
   height: auto;
 }
 
-.demonstration-gif {
-  width: 100%;
-  max-width: 55%;
+.hero-image {
+  max-width: 50%;
+  max-height: 400px;
   padding: 20px;
 }
 
@@ -26,18 +26,6 @@
 
 .discord {
   background-image: url("discord.svg");
-}
-
-.chrome {
-  background-image: url("chrome.svg");
-}
-
-.firefox {
-  background-image: url("firefox.svg");
-}
-
-.edg {
-  background-image: url("edge.svg");
 }
 
 .explore-more {
@@ -90,11 +78,20 @@
     height: auto;
   }
 
-  .explore-more, .toc, .demonstration-gif {
+  .explore-more, .toc, .hero-image {
     display: none;
   }
 }
 
 .toc-sticky {
   background-color: var(--toc-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+
+  a {
+    color: var(--primary-text-color);
+  }
 }
