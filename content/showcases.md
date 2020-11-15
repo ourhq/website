@@ -6,33 +6,21 @@ weight = 1
 
 # Pull request
 
-If you use **Juice** as your theme, feel free to make Pull request.
+If you've made something in **OurHQ** and want to show it off, please make a pull request!
 
 Here are some steps to help you get started:
- 
-- Change the [content/showcases.md](https://github.com/huhu/juice/blob/master/content/showcases.md) file, add your product site. Make sure the lexicographical order.
-- Add your screenshots to [static/showcases](https://github.com/huhu/juice/tree/master/static/showcases) directory, then link the screenshot in the markdown file.
-- Add a link to your product site.
+
+- Change the [content/showcases.md](https://gitlab.com/lukehsiao/ourhq-website/blob/master/content/showcases.md) file, add your project.
+  Follow reverse chronological order.
+- Add your screenshot to the [static/showcases](https://gitlab.com/lukehsiao/ourhq-website/tree/master/static/showcases) directory, then link the screenshot in the markdown file.
+- Add a link to your project.
 
 # Gallery
 
-Here are some product websites which use **Juice** as the theme.
-Sort by lexicographical order. 
+Here are some of the awesome things we've worked on at OurHQ.
+Sorted in reverse chronological order.
 
-## C/C++ Search Extension
+## 2020-11-15: This website!
 
-![](/showcases/cpp-search-extension.png)
-
-Link: [https://cpp.extension.sh/](https://cpp.extension.sh/)
-
-## Go Search Extension
-
-![](/showcases/go-search-extension.png)
-
-Link: [https://go.extension.sh/](https://go.extension.sh/)
-
-## Rust Search Extension
-
-![](/showcases/rust-search-extension.png)
-
-Link: [https://rust.extension.sh/](https://rust.extension.sh/)
+This website was built collaboratively to learn the basics about networking, the
+internet, and how simple websites work.
