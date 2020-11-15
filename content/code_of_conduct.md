@@ -1,5 +1,5 @@
 +++
-title = "Code of Conduct"
+title = "Conduct"
 description = "OurHQ's Code of Conduct"
 weight = 3
 +++
