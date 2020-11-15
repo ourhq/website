@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://ourhq.hsiao.dev"
+base_url = "https://ourhq.netlify.app"
 
 title = "OurHQ: An inclusive hackerspace for youth"
 
