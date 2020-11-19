@@ -18,4 +18,4 @@ community to enjoy a new project, listen to a talk, play some games, and/or
 discuss new ideas. You can find when these events will be happening on the
 calendar below.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=eg31v5ssq087hdjoa5g775sr5g%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23fdf6e3&amp;ctz=America%2FLos_Angeles&amp;src=ZWczMXY1c3NxMDg3aGRqb2E1Zzc3NXNyNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23795548&amp;color=%23009688&amp;mode=MONTH&amp;showCalendars=1&amp;showNav=1&amp;showTitle=1&amp;title=OurHQ%20Schedule" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
