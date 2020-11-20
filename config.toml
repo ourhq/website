@@ -20,8 +20,8 @@ theme = "juice"
 juice_logo_name = "OurHQ"
 juice_logo_path = "ourhq.svg"
 juice_extra_menu = [
-    { title = "GitLab", link = "https://gitlab.com/lukehsiao/ourhq-website"},
-    { title = "Discord", link = "https://discord.com/"}
+    { title = "GitHub", link = "https://github.com/ourhq/website" },
+    { title = "Discord", link = "https://discord.com/" }
 ]
 meta_title = "OurHQ: An inclusive hackerspace for youth"
 meta_description = "Come join us to design, build, create, learn, and play."

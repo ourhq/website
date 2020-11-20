@@ -10,9 +10,9 @@ If you've made something in **OurHQ** and want to show it off, please make a pul
 
 Here are some steps to help you get started:
 
-- Change the [content/showcases.md](https://gitlab.com/lukehsiao/ourhq-website/blob/master/content/showcases.md) file, add your project.
+- Change the [content/showcases.md](https://github.com/ourhq/website/blob/master/content/showcases.md) file, add your project.
   Follow reverse chronological order.
-- Add your screenshot to the [static/showcases](https://gitlab.com/lukehsiao/ourhq-website/tree/master/static/showcases) directory, then link the screenshot in the markdown file.
+- Add your screenshot to the [static/showcases](https://github.com/ourhq/tree/master/static/showcases) directory, then link the screenshot in the markdown file.
 - Add a link to your project.
 
 # Gallery

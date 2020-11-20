@@ -22,8 +22,8 @@ to schedule a featured appearance.
 
 # What is expected from me?
 This is a no-strings-attached place to hang out 🙂.
-We just expect all of our community members to follow our [Code of Conduct](@/code_of_conduct.md).
-
+That said, we encourage you to get involved by sharing some of your talents and connecting with the other youth and mentors available here.
+We expect all of our community members to follow our [Code of Conduct](@/code_of_conduct.md).
 
 # Why use Discord?
 We wanted a user-friendly community space to hang out in during this pandemic.
