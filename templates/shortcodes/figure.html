@@ -1,0 +1,5 @@
+<figure {% if class %}class="{{ class }}"{% endif %}>
+    <a href="{% if link %}{{ link }}{% else %}{{ get_url(path=src) }}{% endif %}">
+        <img src="{{ get_url(path=src) }}" {%- if alt %}alt="{{ alt }}"{% endif %} {%- if border %}style="border:{{ border }}px solid black"{% endif %}/>
+    </a>
+</figure>

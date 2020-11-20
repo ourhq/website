@@ -22,5 +22,9 @@ Sorted in reverse chronological order.
 
 ## 2020-11-15: This website!
 
+{{ figure(src="showcases/website.png", link="https://ourhq.netlify.app", alt="ourhq-website") }}
+
 This website was built collaboratively to learn the basics about networking, the
 internet, and how simple websites work.
+
+Link: <https://ourhq.netlify.app>
