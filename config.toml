@@ -21,7 +21,7 @@ juice_logo_name = "OurHQ"
 juice_logo_path = "ourhq.svg"
 juice_extra_menu = [
     { title = "GitHub", link = "https://github.com/ourhq/website" },
-    { title = "Discord", link = "https://discord.com/" }
+    { title = "Discord", link = "https://forms.gle/5UBfP3uqp8rQi6wk8" }
 ]
 meta_title = "OurHQ: An inclusive hackerspace for youth"
 meta_description = "Come join us to design, build, create, learn, and play."

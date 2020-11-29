@@ -9,7 +9,7 @@ Anyone is encouraged to request an invitation.
 If you already have a connection to our community, you'll be instantly approved.
 OurHQ is a place for everyone, people from all backgrounds and interests.
 Everyone is welcome.
-You can request an invitation by filling out [this form].
+You can request an invitation by filling out [this form][discord].
 
 # Can I invite my friends?
 Yes, please do! You can generate invite codes in Discord by following [this guide][invites].
@@ -30,5 +30,6 @@ We wanted a user-friendly community space to hang out in during this pandemic.
 We like the flexibility it gives us to hop around different channels, voice chat, screen share, listen to music together, share files, etc.
 It mimics the serendipity of a physical community space, while still conforming to safety guidelines.
 
+[discord]: https://forms.gle/5UBfP3uqp8rQi6wk8
 [email]: mailto:ourhq@hsiao.dev
 [invites]: https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-
