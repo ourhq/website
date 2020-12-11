@@ -21,9 +21,12 @@ love to have you! Contact us [via email][email],  and we'll work with you
 to schedule a featured appearance.
 
 # What is expected from me?
-This is a no-strings-attached place to hang out 🙂.
-That said, we encourage you to get involved by sharing some of your talents and connecting with the other youth and mentors available here.
-We expect all of our community members to follow our [Code of Conduct](@/code_of_conduct.md).
+There are two main requirements:
+1. We expect all of our community members to follow our [Code of Conduct](@/code_of_conduct.md).
+2. This isn't an anonymous community, we want to get to know each other! Please [change your Discord nickname][nick] to something we would recognize (like `JennyQ`) rather than something anonymous (like `Nautilus03`).
+
+Otherwise, this is a no-strings-attached place to hang out 🙂.
+We encourage you to get involved by sharing some of your talents and connecting with the other youth and mentors available here.
 
 # Why use Discord?
 We wanted a user-friendly community space to hang out in during this pandemic.
@@ -33,3 +36,5 @@ It mimics the serendipity of a physical community space, while still conforming 
 [discord]: https://forms.gle/5UBfP3uqp8rQi6wk8
 [email]: mailto:ourhq@hsiao.dev
 [invites]: https://support.discord.com/hc/en-us/articles/204155938-How-do-I-invite-friends-to-my-server-
+[nick]: https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames
+
