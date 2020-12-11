@@ -5,7 +5,7 @@ sort_by = "weight"
 
 # OurHQ: A inclusive online community for youth
 
-**OurHQ** is a youth-focused online community based in Palo Alto and started by the Palo Alto youth of [The Church of Jesus Christ of Latter-Day Saints][lds].
+**OurHQ** is a youth-focused online community based in Palo Alto started by youth from [The Church of Jesus Christ of Latter-Day Saints][lds] in this area.
 We connect youth and mentors together so we can:
 
 - Explore and learn about a variety of interests and skills
@@ -13,8 +13,8 @@ We connect youth and mentors together so we can:
 - Provide grassroots leadership and service opportunities
 - Have a good time!
 
-Being an online community, we're note restricted to discrete blocks of time to meet together.
-Our members organically come and go throughout the week.
+Being an online community, we're not restricted to discrete blocks of time to meet together.
+Most of our activities and members organically come and go throughout the week.
 So, if you're working on something and want some company, or are just bored and want to see what's happening, feel free to pop in!
 
 # Special Events
