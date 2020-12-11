@@ -1,7 +1,7 @@
 # OurHQ Website
 
 This repository contains the source code for the [OurHQ website][website]. This
-site is build using [Zola] and hosted by [Netlify].
+site is built using [Zola] and hosted by [Netlify].
 
 It is dual-licensed under MIT or Apache-2.0.
 
