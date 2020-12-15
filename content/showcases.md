@@ -12,7 +12,7 @@ Here are some steps to help you get started:
 
 - Change the [content/showcases.md](https://github.com/ourhq/website/blob/master/content/showcases.md) file, add your project.
   Follow reverse chronological order.
-- Add your screenshot to the [static/showcases](https://github.com/ourhq/tree/master/static/showcases) directory, then link the screenshot in the markdown file.
+- Add your screenshot to the [static/showcases](https://github.com/ourhq/website/tree/master/static/showcases) directory, then link the screenshot in the markdown file.
 - Add a link to your project.
 
 # Gallery
