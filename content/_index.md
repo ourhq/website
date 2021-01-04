@@ -15,7 +15,13 @@ We connect youth and mentors together so we can:
 
 Being an online community, we're not restricted to discrete blocks of time to meet together.
 Most of our activities and members organically come and go throughout the week.
-So, if you're working on something and want some company, or are just bored and want to see what's happening, feel free to pop in!
+
+We’d love to share what we know and have you contribute.
+If you want to just come for the company, even if you’re working on your own stuff, please join!
+Want to create an Among Us lobby with voice comms? We can do that, too.
+Want to come and just shoot the breeze? Great!
+Want some feedback on something you’re working on (e.g., a talk, an idea, a recipe, a game you made, etc.)? You’ll have an audience here.
+No matter what's happening out in the world, if you're working on something and want some company, or are just bored and want to see what's happening in our community, feel free to pop in!
 
 # Special Events
 
