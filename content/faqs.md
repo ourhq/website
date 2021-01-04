@@ -6,7 +6,7 @@ weight = 2
 
 # Who can join?
 Anyone is encouraged to request an invitation.
-If you already have a connection to our community, you'll be instantly approved.
+If you already have a connection to our community, you'll be approved quickly.
 OurHQ is a place for everyone, people from all backgrounds and interests.
 Everyone is welcome.
 You can request an invitation by filling out [this form][discord].
